@@ -5,7 +5,7 @@
 //  Created by yujinping on 16/4/12.
 //
 
-#define MTGRewardVideoSDKVersion @"4.8.0"
+#define MTGRewardVideoSDKVersion @"5.1.0"
 
 #import <Foundation/Foundation.h>
 #import <MTGSDK/MTGRewardAdInfo.h>
