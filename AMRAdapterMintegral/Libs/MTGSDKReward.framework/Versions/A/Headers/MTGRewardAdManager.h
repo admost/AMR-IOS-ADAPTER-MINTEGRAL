@@ -5,7 +5,7 @@
 //  Created by yujinping on 16/4/12.
 //
 
-#define MTGRewardVideoSDKVersion @"5.1.0"
+#define MTGRewardVideoSDKVersion @"5.3.1"
 
 #import <Foundation/Foundation.h>
 #import <MTGSDK/MTGRewardAdInfo.h>
@@ -63,6 +63,18 @@
  *  @param error       - error object that describes the exact error encountered when showing the ad.
  */
 - (void)onVideoAdShowFailed:(nullable NSString *)unitId withError:(nonnull NSError *)error;
+
+/**
+ *  Called only when the ad has a video content, and called when the video play completed.
+ *  @param unitId - the unitId string of the Ad that video play completed.
+ */
+- (void) onVideoPlayCompleted:(nullable NSString *)unitId;
+
+/**
+ *  Called only when the ad has a endcard content, and called when the endcard show.
+ *  @param unitId - the unitId string of the Ad that endcard show.
+ */
+- (void) onVideoEndCardShowSuccess:(nullable NSString *)unitId;
 
 /**
  *  Called when the ad is clicked

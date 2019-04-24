@@ -6,7 +6,7 @@
 //
 
 
-#define MTGSDKVersion @"5.1.0"
+#define MTGSDKVersion @"5.3.1"
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
