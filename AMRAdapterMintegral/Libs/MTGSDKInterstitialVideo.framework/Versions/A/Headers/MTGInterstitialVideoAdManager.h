@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#define MTGInterstitialVideoSDKVersion @"5.3.1"
+#define MTGInterstitialVideoSDKVersion @"5.3.3"
 
 
 @class MTGInterstitialVideoAdManager;
@@ -65,11 +65,17 @@
 - (void) onInterstitialVideoAdClick:(MTGInterstitialVideoAdManager *_Nonnull)adManager;
 
 /**
- *  Called when the ad has been dismissed from being displayed, and control will return to your app
+ *  Called when the ad will be dismissed from being displayed, and control will return to your app
  *  @param converted   - BOOL describing whether the ad has converted
  */
 - (void) onInterstitialVideoAdDismissedWithConverted:(BOOL)converted adManager:(MTGInterstitialVideoAdManager *_Nonnull)adManager;
 
+/**
+ *  Called when the ad  did closed;
+ *
+ *  @param unitId - the unitId string of the Ad clicked.
+ */
+- (void) onInterstitialVideoAdDidClosed:(MTGInterstitialVideoAdManager *_Nonnull)adManager;
 
 @end
 
