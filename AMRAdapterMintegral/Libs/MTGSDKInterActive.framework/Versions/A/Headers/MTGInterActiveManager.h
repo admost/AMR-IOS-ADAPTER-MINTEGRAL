@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define MTGInterActiveSDKVersion @"5.3.3"
+#define MTGInterActiveSDKVersion @"5.4.2"
 
 
 typedef NS_ENUM(NSInteger, MTGInterActiveResourceType) {
