@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterMintegral'
-  s.version          = '7.1.2.0'
+  s.version          = '7.1.2.1'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -31,5 +31,7 @@ Pod::Spec.new do |s|
   s.dependency 'MintegralAdSDK/InterstitialAd', '7.1.2'
   s.dependency 'MintegralAdSDK/BannerAd', '7.1.2'
   s.dependency 'MintegralAdSDK/BidNativeAd', '7.1.2'
+  s.dependency 'MintegralAdSDK/SplashAd', '7.1.2'
+  s.dependency 'MintegralAdSDK/NewInterstitialAd', '7.1.2'
 
 end
