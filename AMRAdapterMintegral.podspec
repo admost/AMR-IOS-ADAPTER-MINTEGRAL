@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterMintegral'
-  s.version          = '7.2.9.0'
+  s.version          = '7.3.0.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform 			= :ios
   s.ios.deployment_target = '9.0'
+  s.swift_versions = ['5']
   s.vendored_frameworks = 'AMRAdapterMintegral/Libs/AMRAdapterMintegral.xcframework'
   s.pod_target_xcconfig = { 
     'OTHER_LDFLAGS' => '-ObjC -lc++',
@@ -25,13 +26,13 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'AMRSDK', '~> 1.5.16'
-  s.dependency 'MintegralAdSDK/NativeAd', '7.2.9'
-  s.dependency 'MintegralAdSDK/InterstitialVideoAd', '7.2.9'
-  s.dependency 'MintegralAdSDK/RewardVideoAd', '7.2.9'
-  s.dependency 'MintegralAdSDK/InterstitialAd', '7.2.9'
-  s.dependency 'MintegralAdSDK/BannerAd', '7.2.9'
-  s.dependency 'MintegralAdSDK/BidNativeAd', '7.2.9'
-  s.dependency 'MintegralAdSDK/SplashAd', '7.2.9'
-  s.dependency 'MintegralAdSDK/NewInterstitialAd', '7.2.9'
+  s.dependency 'MintegralAdSDK/NativeAd', '7.3.0'
+  s.dependency 'MintegralAdSDK/InterstitialVideoAd', '7.3.0'
+  s.dependency 'MintegralAdSDK/RewardVideoAd', '7.3.0'
+  s.dependency 'MintegralAdSDK/InterstitialAd', '7.3.0'
+  s.dependency 'MintegralAdSDK/BannerAd', '7.3.0'
+  s.dependency 'MintegralAdSDK/BidNativeAd', '7.3.0'
+  s.dependency 'MintegralAdSDK/SplashAd', '7.3.0'
+  s.dependency 'MintegralAdSDK/NewInterstitialAd', '7.3.0'
 
 end
