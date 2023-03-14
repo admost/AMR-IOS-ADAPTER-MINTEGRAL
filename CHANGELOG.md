@@ -3,8 +3,13 @@
 Changelog for AMRAdapterMintegral. 
 Mintegral [changelog](http://cdn-adn.rayjump.com/cdn-adn/v2/markdown_v2/index.html?file=sdk-m_sdk-ios&lang=en#changelog)
 
-## [7.3.0.1] - 2023-03-03
+## [7.3.3.0] - 2023-03-14
 ### Updated
+- Offical release for Mintegral 7.3.3
+
+## [7.3.1.0] - 2023-03-03
+### Updated
+- Bidding support added to Native banners.
 - Offical release for Mintegral 7.3.1
 
 ## [7.3.0.0] - 2023-03-03
