@@ -3,6 +3,10 @@
 Changelog for AMRAdapterMintegral. 
 Mintegral [changelog](http://cdn-adn.rayjump.com/cdn-adn/v2/markdown_v2/index.html?file=sdk-m_sdk-ios&lang=en#changelog)
 
+## [7.4.4.0] - 2023-09-13
+### Updated
+- Offical release for Mintegral 7.4.4
+
 ## [7.4.3.0] - 2023-08-24
 ### Updated
 - Interstitial impression diffirence issue fixed.
