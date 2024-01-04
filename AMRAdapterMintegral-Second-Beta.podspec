@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'AMRAdapterMintegral-Beta'
+  s.name             = 'AMRAdapterMintegral-Second-Beta'
   s.version          = '7.5.3.1'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
