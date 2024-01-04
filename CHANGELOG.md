@@ -3,6 +3,10 @@
 Changelog for AMRAdapterMintegral. 
 Mintegral [changelog](http://cdn-adn.rayjump.com/cdn-adn/v2/markdown_v2/index.html?file=sdk-m_sdk-ios&lang=en#changelog)
 
+## [7.5.3.1] - 2023-01-04
+### Updated
+- Sound Mute Controls Added
+
 ## [7.5.3.0] - 2023-12-19
 ### Updated
 - Offical release for Mintegral 7.5.3
