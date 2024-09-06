@@ -3,6 +3,10 @@
 Changelog for AMRAdapterMintegral. 
 Mintegral [changelog](http://cdn-adn.rayjump.com/cdn-adn/v2/markdown_v2/index.html?file=sdk-m_sdk-ios&lang=en#changelog)
 
+## [7.7.1.0] - 2024-09-06
+### Updated
+- Offical release for Mintegral 7.7.1
+
 ## [7.7.0.0] - 2024-08-16
 ### Updated
 - Offical release for Mintegral 7.7.0
