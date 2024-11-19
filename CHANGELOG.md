@@ -3,6 +3,10 @@
 Changelog for AMRAdapterMintegral. 
 Mintegral [changelog](http://cdn-adn.rayjump.com/cdn-adn/v2/markdown_v2/index.html?file=sdk-m_sdk-ios&lang=en#changelog)
 
+## [7.7.3.1] - 2024-11-19
+### Updated
+- Ad quality support added.
+
 ## [7.7.3.0] - 2024-11-04
 ### Updated
 - Offical release for Mintegral 7.7.3
