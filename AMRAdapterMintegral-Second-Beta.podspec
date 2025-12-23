@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterMintegral-Second-Beta'
-  s.version          = '7.7.9.0'
+  s.version          = '8.0.4.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
-  s.dependency 'AMRSDK-Beta', '~> 1.5.55'
-  s.dependency 'MintegralAdSDK', '7.7.9'
-  s.dependency 'MintegralAdSDK/BidSplashAd', '7.7.9'
+  s.dependency 'AMRSDK-Beta', '~> 1.5.78'
+  s.dependency 'MintegralAdSDK', '8.0.4'
+  s.dependency 'MintegralAdSDK/BidSplashAd', '8.0.4'
 
 end
